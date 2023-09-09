@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&family=Dancing+Script:wght@700&family=Fasthand&family=Inter:wght@300;700&family=Montserrat&family=Oxanium:wght@300;400;700&family=Roboto+Mono&family=Roboto:wght@300&display=swap');
+
+body{
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+.apresentation{
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.9) 5%,
+        rgba(0, 0, 0, 0.2) 20%,
+        rgba(0, 0, 0, 0.2) 80%,
+        rgba(0, 0, 0, 0.8) 100%
+      ), url('..//img/banner\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.app__navigation{
+    display: flex;
+    padding: 1rem 3rem;
+}
+
+.app__navigation__user{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    height: 100%;
+    gap: 1.875rem;
+}
+
+.search__button:hover, .notfications__button:hover{
+    cursor: pointer;
+}
+
+
+.menu__arrow{
+    margin-left: -1.4375rem;
+}
+
+.menu__arrow:hover{
+    cursor: pointer;
+}
+
+.app__navigation__menu{
+    display: flex;
+    gap: 1.4rem;
+    align-items: center;
+}
+
+.app__navigation__logo{
+    width: 8%;
+}
+
+.app__navigation__links{
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.app__txt{
+    display: flex;
+    flex-direction: column;
+    padding: 7.5rem 3rem 1rem;
+    gap: 0.625rem;
+    align-items: flex-start;
+}
+
+.app__title{
+    width: 70vh;
+}
+
+.app__content{
+    color: #fff;
+    font-size: 2.5vh;
+    word-break: break-word;
+    font-weight: 500;
+    padding: 0.5rem 60rem 0 0;
+}
+
+.app__buttons{
+    display: flex;
+    padding: 0rem 3rem ;
+    gap: 1.875rem;
+}
+
+.watch__button{
+    align-items: center;
+    padding: 0.625rem 2.5rem;
+    background-color: #fff;
+    display: flex;
+    gap: 0.625rem;
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: 600;
+    border-radius: 0.125rem;
+}
+
+.watch__button:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.777);
+}
+
+.informations__button{
+    align-items: center;
+    font-family: inherit;
+    background-color: #696969;
+    font-weight: 600;
+    display: flex;
+    gap: 0.625rem;
+    color: #fff;
+    padding: 0.9375rem 2.5rem;
+    background-color: rgba(109, 109, 110, 0.7);
+    border-radius: 0.125rem;
+}
+
+.informations__button:hover{
+    cursor: pointer;
+    background-color: rgba(109, 109, 110, 0.525);
+}
+
+.main__category{
+    display: flex;
+    flex-direction: column;
+}
+
+.my__list{
+    display: flex;
+    flex-direction: column;
+}
+
+.my__list > p {
+    color: #fff;
+    padding: 13rem 0.25rem 1.5rem 3rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: -0.01rem;
+}
+
+.banners{
+    display: flex;
+    flex-direction: row;
+    gap: 0.3125rem;
+    padding: 0 3rem 1.7rem 3rem;
+    overflow: auto;
+    
+}
+
+.banners::-webkit-scrollbar {
+    display: none;
+}
+
+li > img{
+    width: 18.5rem;
+    cursor: pointer; 
+}
+
+.animation:hover{
+    border: 2px solid #fff;
+}
+
+.rail{
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 1.5rem 3rem;
+    font-weight: 700;
+    letter-spacing: -0.01rem;
+}
+
+.gallery__wrap{
+    display: flex;
+    flex-direction: column;
+    max-width: 95%;
+}
+
+.arrows{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    padding: 4.5rem 1rem;
+    height: 100vh;
+    width: 93%;
+}
+
+.fa-chevron-left, .fa-chevron-right{
+    color:  #fff;
+    font-weight: 700;
+}
+
+.fa-chevron-right:hover, .fa-chevron-left:hover{
+    cursor: pointer;
+}
+
+.caps:nth-of-type(1){
+    border: 2px solid #fff;
+}
+
+.moved{
+    margin-left: -18rem;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+
+
+.end__page{
+    display: flex;
+    flex-direction: column;
+}
+
+.social__media{
+    display: flex;
+    gap: 30px;
+    padding: 2rem 3rem 1.7rem 3rem;
+}
+
+.social__media > a{
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.end__page__informations__container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 7rem 1rem 3rem;
+}
+
+.end__page__informations{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.end__page__informations > li {
+    color: #696969;
+    font-weight: 600;
+}
+
+.end__page__informations > li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.end__page__informations > button {
+    width: 100%;
+    font-size: 15.5px;
+    font-weight: 600;
+    padding: 0.8rem;
+    margin: 1rem 0;
+    color: #696969;
+    border: 2px solid #696969;
+} 
+
+.end__page__informations > button:hover{
+    cursor: pointer;
+}
